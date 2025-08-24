@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facilize - Assistente Virtual para Inclusão Digital de Idosos</title>
+    <h1>
+        Facilize - Assistente Virtual para Inclusão Digital de Idosos
+    </h1>
     <link rel="stylesheet" href="css/style.css">
     
 </head>
@@ -11,7 +13,6 @@
 
 <header>
     <img src="imagens/facilize.jpg" alt="Logo Facilize">
-    <h1>Facilize - Assistente Virtual para Inclusão Digital de Idosos</h1>
     <p>“Como facilitar o acesso dos idosos à tecnologia e promover inclusão digital de verdade?"</p>
 </header>
 
