@@ -77,6 +77,10 @@ cd [nome do seu repositório]
 
 </section>
 
+<section>
+    <img src="imagens/teste1.jpg" alt="Teste 1">
+    <img src="imagens/teste2.jpg" alt="Teste 2">
+</section>
 
 <footer>
     <p>Facilize © 2025 - Todos os direitos reservados</p>
