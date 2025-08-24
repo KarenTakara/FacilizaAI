@@ -44,6 +44,40 @@
     </p>
 </section>
 
+<section>
+    <h2>Estrutura do Projeto</h2>
+    <ul>
+        <li><strong>index.html:</strong> O arquivo principal do front-end. Ele define a estrutura da página (o esqueleto do chat).</li>
+        <li><strong>style.css:</strong> Cuida da aparência do chat, como cores, tamanhos e alinhamento das mensagens.</li>
+        <li><strong>script.js:</strong> O "cérebro" do front-end. Ele gerencia a interação do usuário, adiciona as mensagens na tela e se comunica com o servidor back-end.</li>
+        <li><strong>server.js:</strong> O servidor back-end. Ele recebe as requisições do front-end e envia as respostas.</li>
+        <li><strong>computador.js:</strong> A "inteligência" do projeto. Este arquivo se conecta à API da Google Gemini e gera as respostas para as perguntas do usuário.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Como Instalar e Rodar</h2>
+    <p>Para que o projeto funcione, você precisa ter o <strong>Node.js</strong> instalado em seu computador.</p>
+    <h3>1. Clone o repositório</h3>
+    <p>Se você estiver usando Git, clone o projeto para sua máquina.</p>
+    <pre><code>git clone https://www.dio.me/articles/enviando-seu-projeto-para-o-github
+cd [nome do seu repositório]
+    </code></pre>
+    <h3>2. Instale as dependências</h3>
+    <p>Abra o terminal na pasta do projeto e instale as bibliotecas necessárias.</p>
+    <pre><code>npm install express body-parser cors @google/generative-ai</code></pre>
+    <h3>3. Adicione sua Chave de API</h3>
+    <p>Abra o arquivo <code>computador.js</code> e substitua <code>"SUA_API_KEY"</code> pela sua chave da Google Gemini. Você pode obtê-la no <a href="https://ai.google.dev/maker">Google AI Studio</a>.</p>
+    <h3>4. Inicie o servidor</h3>
+    <p>No terminal, execute o comando para iniciar o back-end.</p>
+    <pre><code>node server.js</code></pre>
+    <p>Você deve ver a mensagem <strong>"Servidor rodando em http://localhost:3000"</strong>. Deixe este terminal aberto.</p>
+    <h3>5. Abra o Front-end</h3>
+    <p>Vá até a pasta do projeto e abra o arquivo <code>index.html</code> em seu navegador (Chrome, Firefox, etc.). Recomendamos usar a extensão <strong>Live Server</strong> do VS Code para facilitar.</p>
+
+</section>
+
+
 <footer>
     <p>Facilize © 2025 - Todos os direitos reservados</p>
 </footer>
